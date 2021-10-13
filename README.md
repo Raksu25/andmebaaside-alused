@@ -57,3 +57,31 @@ if (err) throw err;
     const server = http.createServer(requestListener);
     server.listen(8080);
 });
+
+
+
+
+
+
+
+
+<nav>
+        <ul>
+            <li>
+                <a href="home.html">home</a>
+            </li>
+            <li>
+                <a href="tooted.html">tooted</a>
+            </li>
+            <li>
+                <a href="kontakt.html">kontakt</a>
+            </li>
+        </ul>
+    </nav>
+<div class="content">
+    <h1>Tooted</h1>
+</div>
+<div>
+<h2>T-särk</h2>
+<spawn>Hind:</spawn><spawn>10€</spawn>
+</div>
